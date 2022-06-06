@@ -1,13 +1,46 @@
-body {
+/* 
+COLORS
+#26292E - dark
+#565D67 - gray
+#E58947 - orange
+#FAB685 - light orange 
+*/
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+:root{
+  --dark: #26292E;
+  --gray: #565D67;
+  --orange: #E58947;
+  --lightOrange: #FAB685;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'Alice';
+  src: local('Alice'), url(./Fonts/Alice-Regular.ttf) format('truetype');
+ 
+}
+
+@font-face {
+  font-family: 'BenchNine';
+  src: local('BenchNine'), url(./Fonts/BenchNine-Light.ttf) format('truetype');
+ 
+}
+
+@font-face {
+  font-family: 'JosefinSlab';
+  src: local('JosefinSlab'), url(./Fonts/JosefinSlab.ttf) format('truetype');
+ 
+}
+
+@font-face {
+  font-family: 'YuseiMagic';
+  src: local('YuseiMagic'), url(./Fonts/YuseiMagic.ttf) format('truetype');
+ 
+}
+
+
+body{
+  background: var(--dark);
 }

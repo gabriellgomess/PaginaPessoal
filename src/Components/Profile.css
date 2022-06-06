@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    border-bottom: 1px solid var(--lightOrange);
+}
+.profile__title{
+    color: var(--dark);
+    font-family: 'YuseiMagic';
+}
+.profile__icon{
+    font-size: 4rem;
+    color: var(--dark);
+}
