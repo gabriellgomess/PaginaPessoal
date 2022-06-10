@@ -1,0 +1,21 @@
+.App{
+    display: flex
+}
+
+.main{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 21px;
+    background: linear-gradient(145deg, #222529, #292c31);
+    box-shadow:  20px 20px 60px #202327,
+                 -20px -20px 60px #2c2f35;
+}
+
+.h1-page{
+    color: var(--lightOrange);
+    font-family: 'YuseiMagic';
+}
