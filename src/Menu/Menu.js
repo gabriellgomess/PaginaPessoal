@@ -19,7 +19,7 @@ const Menu = () => {
             {menu === false?<GrClose onClick={() => setMenu(!menu)} className="menu-icon"/>:<GiHamburgerMenu onClick={() => setMenu(!menu)} className="menu-icon"/>}
             
             <Profile menu={menu} />
-                <Link className="line-none" to="/">
+                <Link className="line-none" to="/PaginaPessoal/build/">
                         <div className="list-items">
                             {menu===false?<><h4 className="menu-items">Início</h4><AiOutlineHome /></>:<AiOutlineHome className="menu-items-icons" />}
                         </div>

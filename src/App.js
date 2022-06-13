@@ -14,7 +14,7 @@ function App() {
       <Menu />
       <div className='main'>
         <Routes>                
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/PaginaPessoal/build/" element={<Home />} />
             <Route path="/Sobre" element={<Sobre />} />
             <Route path="/Portifolio" element={<Portifolio />} />
             <Route path="/Contato" element={<Contato />} />                        
